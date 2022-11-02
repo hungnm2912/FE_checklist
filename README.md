@@ -1,22 +1,34 @@
 # FE_checklist
 
+- Have a good README.md
+
 - Folder structure
-  - State/store
-  - Common Utility
-  - env sample
+  - State/store: Redux, Vuex, Ngrx
+  - Common page: 404, 500
+  - Common layouts, components
+  - Common utilities, enums
+  - env sample, gitignore
 
 - Authentication flow
   - Login screen
-  - Router, Guards/Middleware
+  - Router, lazy load module
+  - Guards / middleware
   - Interceptor
-
-- Sample screen
-  - Table, filter, paging
-  - Common action button
-  - Call service
+  
+- Apply a css framework: Tailwind, vuetify, material ...
 
 - Lint, Prettier
 
-- Docker
-  - Dockerfile
-  - docker-compose
+- Sample screen
+  - Table, filter, paging
+  - Common action button, common dialog
+  - Call service
+
+- Build, deployment
+  - Docker: Dockerfile, docker-compose sample
+  - Webpack, Babel
+
+- Optional 
+  - Socket: socketio
+  - Multi language: i18n
+  - Unit test
