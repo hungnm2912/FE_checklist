@@ -7,6 +7,7 @@
   - Common page: 404, 500
   - Common layouts, components
   - Common utilities, enums
+  - External lib, sdk
   - env sample, gitignore
 
 - Authentication flow
